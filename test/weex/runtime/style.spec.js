@@ -1,7 +1,7 @@
 import { getRoot, fireEvent, compileAndExecute } from '../helpers/index'
 
 describe('generate style', () => {
-  it('should be generated', () => {
+  it('should be now generated', () => {
     compileAndExecute(`
       <div>
         <text style="font-size: 100">Hello World</text>
