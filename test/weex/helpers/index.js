@@ -5,6 +5,7 @@ import { compile } from '../../../packages/weex-template-compiler'
 import WeexRuntime from 'weex-js-runtime'
 import styler from 'weex-styler'
 
+
 const styleRE = /<\s*style\s*\w*>([^(<\/)]*)<\/\s*style\s*>/g
 const scriptRE = /<\s*script.*>([^]*)<\/\s*script\s*>/
 const templateRE = /<\s*template\s*([^>]*)>([^]*)<\/\s*template\s*>/
