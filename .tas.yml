@@ -3,7 +3,6 @@ framework: jasmine
 licenseTier: xsmall
 postMerge:
   pattern:
-    - "./test/weex/**/*spec.js"
     - "./test/unit/**/*spec.js"
 preMerge:
   pattern:
@@ -14,6 +13,6 @@ preRun:
 postRun:
      command:
         - node --version
-configFile: "./test/weex/jasmine.js"
+
 version: 2.0
 
