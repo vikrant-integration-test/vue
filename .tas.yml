@@ -4,6 +4,7 @@ licenseTier: xsmall
 postMerge:
   pattern:
     - "./test/ssr/**/*spec.js"
+    - "./test/weex/**/*spec.js"
 preMerge:
   pattern:
     - "./test/weex/**/*spec.js"
@@ -13,6 +14,8 @@ preRun:
 postRun:
      command:
         - node --version
-configFile: "./test/ssr/jasmine.js"
+configFile:
+    - "./test/ssr/jasmine.js"
+    - "./test/ssr/jasmine.js"
 version: 2.0
 
