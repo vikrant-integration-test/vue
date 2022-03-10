@@ -4,7 +4,7 @@ licenseTier: xsmall
 postMerge:
   pattern:
     - "./test/unit/**/*spec.js"
-
+    - "./test/weex/**/*spec.js"
 preMerge:
   pattern:
     - "./test/weex/**/*spec.js"
