@@ -4,9 +4,6 @@ licenseTier: xsmall
 postMerge:
   pattern:
     - "./test/weex/**/*spec.js"
-  strategy:
-    threshold: <5|100s|30m|6h>
-    type: <commit|time>
 preMerge:
   pattern:
     - "./test/weex/**/*spec.js"
