@@ -14,6 +14,5 @@ preRun:
 postRun:
      command:
         - node --version
-configFile: "./test/weex/jasmine.js ./test/ssr/jasmine.js"
 version: 2.0
 
