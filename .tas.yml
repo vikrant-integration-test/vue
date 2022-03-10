@@ -3,8 +3,8 @@ framework: jasmine
 licenseTier: xsmall
 postMerge:
   pattern:
-    - "./test/ssr/**/*spec.js"
-    - "./test/weex/**/*spec.js"
+    - "./test/unit/**/*spec.js"
+
 preMerge:
   pattern:
     - "./test/weex/**/*spec.js"
